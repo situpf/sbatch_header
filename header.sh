@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=fastqc
 #SBATCH --cpus-per-task=2
-#SBATCH --mem-per-cpu=4G
+#SBATCH --mem-per-cpu=2G
 #SBATCH -o slurm.%j.out
 #SBATCH -e slurm.%j.err
 #SBATCH --mail-type=END
